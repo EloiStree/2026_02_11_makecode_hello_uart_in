@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="5oZ+|bUcm5:kb]`O+PDE" x="736" y="-40"></block><block type="pxt-on-start" id=")9+^[:Wh!98KcIkr[h|t" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="%5TGNb!=2@F]QFqpmgv!"><field name="LEDS">`
+        # # # # # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="serial_redirect" id=";#zju[;tJ$t_Z/Eg$OxJ"><field name="tx">SerialPin.P13</field><field name="rx">SerialPin.P14</field><field name="rate">BaudRate.BaudRate9600</field></block></next></block></statement></block><block type="serial_on_data_received" id="~88CgJF3Io$R:Z*4.tfj" x="297" y="246"><value name="delimiters"><shadow type="serial_delimiter_conv" id="Xy3;eKR_qKNiQ*X;2a4O"><field name="del">Delimiters.NewLine</field></shadow></value><statement name="HANDLER"><block type="device_print_message" id="e!/?B[=YFDZwAiu~RVQE"><value name="text"><shadow type="text" id="q*@l3!1wouk0cFB~;wf+"><field name="TEXT">Hello!</field></shadow><block type="serial_read_until" id="/anJA/6.V`V4p+TkQq@P"><value name="delimiter"><shadow type="serial_delimiter_conv" id="96`EvFlrvz#cQG:,m+!G"><field name="del">Delimiters.NewLine</field></shadow></value></block></value><next><block type="device_show_leds" id="7(kN]W1Al0HFt1-H=8u}"><field name="LEDS">`
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . .
+        `</field></block></next></block></statement></block></xml>
